@@ -1,0 +1,4 @@
+1. SELECT Rodzaj, Nazwa, Gramatura, Cena FROM wyroby WHERE Rodzaj = "INNE";
+2.
+3.SELECT ID, Nazwa FROM wyroby WHERE Nazwa LIKE '%Chałka%';
+4.
