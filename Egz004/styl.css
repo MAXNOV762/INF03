@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    
+}
+
+header, footer, nav {
+    background-color: MediumPurple;
+    color: white;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    text-shadow: 4px 4px DimGray;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+main {
+    background-color: Thistle;
+    width: 80%;
+    height: 450px;
+    overflow: auto;
+    
+}
+
+.wykonanie {
+    background-color: MediumPurple;
+    color: white;
+    height: 30px;
+    border: none;
+    float: right;
+    
+}
+
+ol {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 25px;
+    border: 2px solid MediumPurple;
+    list-style-type: none;
+    
+}
+li {
+   padding: 10px;
+}
+
+li:hover {
+    background-color: Lavender;
+}
+
+li:nth-child(even) { 
+    background-color: #DDCADD; 
+}

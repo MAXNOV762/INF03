@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Zamówień</title>
+</head>
+<body>
+    <form id="MyForm">
+        <label for="produkt">Produkt: </label>
+        <input type="text" id="produkt"><br><br>
+        <label for="cena">Cena: </label>
+        <input type="number" id="cena"><br><br>
+        <label for="ilosc">Ilość: </label>
+        <input type="number" id="ilosc"><br><br>
+        <button type="submit" id="submit">Dodaj do koszyka</button>
+    </form><br><br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nazwa</th>
+                <th>Cena jedn.</th>
+                <th>Ilość</th>
+                <th>Wartość</th>
+                <th>Akcja</th>
+            </tr>
+        </thead>
+        <tbody id="cialo"></tbody>
+    </table>
+    <p id="demo"></p>
+    <script src="append.js"></script>
+</body>
+</html>
