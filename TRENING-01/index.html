@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+        <title>Katalog Filmów</title>
+</head>
+<body>
+    <header>
+        <h1>Moje Filmy</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="oceny.php">Oceny filmów</a>
+    </nav>
+
+    <main>
+        <h2>Moja kolekcja filmów</h2>
+        <form id="MyForm">
+        <input type="text" id="szukanie" name="szukanie" placeholder="Szukaj filmu...">
+        <button type="submit" id="submit">Filtruj</button>
+        </form>
+        <table>
+            <thead>
+                
+                <th>Tytuł</th>
+                <th>Gatunek</th>
+                <th>Rok</th>
+                <th>Ocena</th>
+                
+            </thead>
+            <tbody id="cialo">
+                 <tr>
+                    <td>Incepcja</td>
+                    <td>Sci-Fi</td>
+                    <td>2010</td>
+                    <td>9/10</td>
+                 </tr>
+                 <tr>
+                    <td>Gladiator</td>
+                    <td>Historyczny</td>
+                    <td>2000</td>
+                    <td>8/10</td>
+                 </tr>
+                 <tr>
+                 <td>Interstellar</td>
+                 <td>Sci-Fi</td>
+                 <td>2014</td>
+                 <td>10/10</td>
+                </tr>
+                <tr>
+                    <td>Pianista</td>
+                    <td>Dramat</td>
+                    <td>2002</td>
+                    <td>9/10</td>
+                </tr>
+                <tr>
+                    <td>Zielona Mila</td>
+                    <td>Dramat</td>
+                    <td>1999</td>
+                    <td>9/10</td>
+                </tr>
+            </tbody>
+        </table>
+        <p id="wynik">Wyświetlono wszystkie filmy</p>
+    </main>
+
+    <footer>
+        <p>Projekt: 0000</p>
+    </footer>
+    <script src="skrypt.js"></script>
+</body>
+</html>
